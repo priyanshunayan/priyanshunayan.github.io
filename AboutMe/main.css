@@ -1,0 +1,188 @@
+body {
+	font-family: Calibri, sans-serif;
+}
+hr {
+	width: 19%;
+	margin: 0 auto;
+	height: 2px;
+	background-color: #1862ab;
+	border: none;
+	margin-top: 1em;
+}
+i{
+	margin-right: 15px;
+}
+.welcome:after {
+	content: "";
+	position: fixed;
+	top: 0;
+	background:  #1862ab;
+	height: 10px;
+	right: 0;
+	left: 0;
+}
+.welcome {
+background:  #1862ab;  /* fallback for old browsers */
+height: 100vh;
+display: flex;
+vertical-align: center;
+text-align: center;
+align-items: center;
+justify-content: center;
+
+}
+.welcome h1 {
+	font-weight: bolder;
+	font-size: 3em;
+	color: black;
+	line-height: 1.2;
+	color: white;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 4px;
+}
+.welcome a {
+	color: white;
+	text-decoration: none;
+}
+.main {
+background: white;  /* fallback for old browsers */
+height: 100%
+color: black;
+line-height: 1.2;
+overflow: hidden;
+margin-bottom: 2em;
+height: 100%;
+}
+.main h1 {
+	letter-spacing: 2px;
+	font-size: 2em;
+	text-align: center;
+	font-weight: bolder;
+	padding: 20px;
+}
+.main figure {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main img {
+	border-radius: 50%;
+	margin: 1em;
+}
+.main img:hover {
+	opacity: 0.9;
+}
+.main p {
+	padding: 20px;
+	line-height: 1.4;
+	font-size: 1em;
+	text-align: justify;
+	font-family: 'Pontano Sans', sans-serif;
+	height: 100%;
+}
+.navigation {
+/*background: #1862ab;   fallback for old browsers 
+*/height: 40vh;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.navigation ul li{
+	padding: 1em;
+}
+.navigation a {
+	color: black;
+	margin-right: 1em;
+	font-size: 1.8em;
+	text-decoration: none;
+
+}
+.navigation a:hover {
+	text-decoration: none;
+	color:  #1862ab;
+}
+.footer {
+background:white;  /* fallback for old browsers */
+height: 50vh;
+color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer h3 {
+	font-size: 2em;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+.footer a {
+	color: black;
+}
+.footer a.twitter:hover{
+	color: skyblue;
+}
+.footer a.facebook:hover {
+	color: darkblue;
+}
+.work {
+	background-color: #eef;
+	padding: 1em;
+	margin :1em;
+	line-height: 1.4;
+}
+.work p {
+	font-size: 1.3em;
+}
+.work-heading {
+	font-size: 2em;
+}
+/*For Desktop Design */
+@media only screen and (max-width: 650px) {
+	hr {
+		width: 30%;
+	}
+}
+@media only screen and (min-width:650px) and (max-width: 1024px) {
+	.main {
+		height: 100%;
+	}
+	.main img {
+		width: 250px;
+		height: 250px;
+	}
+	.main p {
+		font-size: 1.4em;
+		width: 80%;
+		margin: 0 auto;
+	}
+	hr {
+		width: 25%;
+	}
+}
+@media only screen and (min-width:1024px) {
+	.main {
+		height: 100%;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.main p{
+		padding: 2em;
+	}
+	.main img{
+		border-radius: 4%;
+		width: 310px;
+		height: auto;
+	}
+	p.bio{
+		font-size: 1.7em;
+		margin-left: 5%;
+	}
+	.navigation ul li {
+		display: inline;
+	}
+	.img-left {
+		display: flex;
+
+	}
+
+} 
