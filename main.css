@@ -34,7 +34,7 @@ justify-content: center;
 }
 .welcome h1 {
 	font-weight: bolder;
-	font-size: 3em;
+	font-size: 3rem;
 	color: black;
 	line-height: 1.2;
 	color: white;
@@ -56,7 +56,7 @@ height: 100%;
 }
 .main h1 {
 	letter-spacing: 2px;
-	font-size: 2em;
+	font-size: 2rem;
 	text-align: center;
 	font-weight: bolder;
 	padding: 20px;
@@ -76,7 +76,7 @@ height: 100%;
 .main p {
 	padding: 20px;
 	line-height: 1.4;
-	font-size: 1em;
+	font-size: 1rem;
 	text-align: justify;
 	font-family: 'Pontano Sans', sans-serif;
 	height: 100%;
@@ -95,7 +95,7 @@ justify-content: center;
 .navigation a {
 	color: black;
 	margin-right: 1em;
-	font-size: 1.8em;
+	font-size: 1.8rem;
 	text-decoration: none;
 
 }
@@ -112,7 +112,7 @@ justify-content: center;
 align-items: center;
 }
 .footer h3 {
-	font-size: 2em;
+	font-size: 2rem;
 	margin-right: 1em;
 	margin-left: 1em;
 }
@@ -132,18 +132,18 @@ align-items: center;
 	line-height: 1.4;
 }
 .work p {
-	font-size: 1.3em;
+	font-size: 1.3rem;
 }
 .work-heading {
-	font-size: 2em;
+	font-size: 2rem;
 }
 /*For Desktop Design */
 @media only screen and (max-width: 650px) {
 	hr {
 		width: 30%;
 	}
-	p {
-		font-size: 2em;
+	.main p {
+		font-size: 2rem;
 	}
 }
 @media only screen and (min-width:650px) and (max-width: 1024px) {
@@ -155,7 +155,7 @@ align-items: center;
 		height: 250px;
 	}
 	.main p {
-		font-size: 1.4em;
+		font-size: 1.4rem;
 		width: 80%;
 		margin: 0 auto;
 	}
@@ -178,7 +178,7 @@ align-items: center;
 		height: auto;
 	}
 	p.bio{
-		font-size: 1.7em;
+		font-size: 1.7rem;
 		margin-left: 5%;
 	}
 	.navigation ul li {
