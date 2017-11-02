@@ -1,5 +1,6 @@
 body {
 	font-family: Calibri, sans-serif;
+	font-size: 20px;
 }
 hr {
 	width: 19%;
@@ -140,6 +141,9 @@ align-items: center;
 @media only screen and (max-width: 650px) {
 	hr {
 		width: 30%;
+	}
+	p {
+		font-size: 2em;
 	}
 }
 @media only screen and (min-width:650px) and (max-width: 1024px) {
