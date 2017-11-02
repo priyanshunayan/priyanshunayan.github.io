@@ -81,13 +81,12 @@ height: 100%;
 	padding: 20px;
 	line-height: 1.4;
 	font-size: 1rem;
-	text-align: justify;
+	text-align: left;
 	font-family: 'Pontano Sans', sans-serif;
 	height: 100%;
 }
 .navigation {
-/*background: #1862ab;   fallback for old browsers 
-*/height: 40vh;
+height: 40vh;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -146,10 +145,11 @@ align-items: center;
 	hr {
 		width: 30%;
 	}
+
 }
 @media only screen and (max-width: 650px), (orientation:landscape) {
 	.welcome {
-		height: 100vh;
+		height: 120vh;
 		font-size: 2rem;
 	}
 	hr {
