@@ -150,7 +150,7 @@ align-items: center;
 		font-size: 2.8rem;
 	}
 }
-@media only screen and (max-width: 750px), (orientation:landscape) {
+@media only screen and (max-width: 650px), (orientation:landscape) {
 	.welcome {
 		height: 100vh;
 		font-size: 2rem;
