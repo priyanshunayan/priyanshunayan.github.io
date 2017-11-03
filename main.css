@@ -38,7 +38,7 @@ justify-content: center;
 }
 .welcome h1 {
 	font-weight: bolder;
-	font-size: 3rem;
+	font-size: 2.7rem;
 	color: black;
 	line-height: 1.2;
 	color: white;
@@ -71,7 +71,6 @@ height: 100%;
 	justify-content: center;
 }
 .main img {
-	border-radius: 50%;
 	margin: 1em;
 }
 .main img:hover {
@@ -79,7 +78,7 @@ height: 100%;
 }
 .main p {
 	padding: 20px;
-	line-height: 1.4;
+	line-height: 1.6;
 	font-size: 1rem;
 	text-align: left;
 	font-family: 'Pontano Sans', sans-serif;
@@ -90,7 +89,6 @@ height: 40vh;
 display: flex;
 align-items: center;
 justify-content: center;
-
 }
 .navigation ul li{
 	padding: 1em;
