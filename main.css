@@ -7,12 +7,13 @@ body {
 
 }
 hr {
-	width: 19%;
+	width: 39%;
 	margin: 0 auto;
 	height: 2px;
 	background-color: #1862ab;
 	border: none;
 	margin-top: 1em;
+	margin-bottom: 1em;
 }
 i{
 	margin-right: 15px;
@@ -85,13 +86,14 @@ height: 100%;
 	height: 100%;
 }
 .navigation {
-height: 40vh;
+height: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
+margin: 3em 0;
 }
 .navigation ul li{
-	padding: 1em;
+	padding: 1.7em;
 }
 .navigation a {
 	color: black;
@@ -104,18 +106,19 @@ justify-content: center;
 	text-decoration: none;
 	color:  #1862ab;
 }
+.icon-contact {
+	text-align: center;
+}
 .footer {
-background:white;  /* fallback for old browsers */
-height: 50vh;
-color: black;
-display: flex;
-justify-content: center;
-align-items: center;
+	margin-bottom: 0.9em;
 }
 .footer h3 {
 	font-size: 2rem;
 	margin-right: 1em;
 	margin-left: 1em;
+	margin: 0 auto;
+	text-align: center;
+	letter-spacing: 3px;
 }
 .footer a {
 	color: black;
@@ -141,18 +144,11 @@ align-items: center;
 /*For Desktop Design */
 @media only screen and (max-width: 650px) {
 	hr {
-		width: 30%;
+		width: 50%;
 	}
 
 }
-@media only screen and (max-width: 650px), (orientation:landscape) {
-	.welcome {
-		height: 120vh;
-		font-size: 2rem;
-	}
-	hr {
-		margin-bottom: 10px;
-	}
+
 }
 @media only screen and (min-width:650px) and (max-width: 1024px) {
 	.main {
@@ -170,6 +166,17 @@ align-items: center;
 	hr {
 		width: 25%;
 	}
+	.footer h3 {
+	font-size: 2rem;
+	margin-right: 1em;
+	margin-left: 1em;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer a {
+	color: black;
+	margin: 0 auto;
+}
 }
 @media only screen and (min-width:1024px) {
 	.main {
@@ -196,5 +203,15 @@ align-items: center;
 		display: flex;
 
 	}
-
+	.footer h3 {
+	font-size: 2rem;
+	margin-right: 1em;
+	margin-left: 1em;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer a {
+	color: black;
+	margin: 0 auto;
+}
 } 
