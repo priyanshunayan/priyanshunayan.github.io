@@ -141,8 +141,8 @@ margin: 3em 0;
 .work-heading {
 	font-size: 2rem;
 }
-.copyright {
-	color: grey;
+p.copyright {
+	color: #7e7e7e;
 }
 /*For Desktop Design */
 @media only screen and (max-width: 650px) {
