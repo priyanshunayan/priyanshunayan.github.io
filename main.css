@@ -112,7 +112,7 @@ margin: 3em 0;
 	text-align: center;
 }
 .footer {
-	margin-bottom: 0.9em;
+	margin-bottom: 2em;
 }
 .footer h3 {
 	font-size: 2rem;
@@ -151,6 +151,9 @@ p.copyright {
 	hr {
 		width: 50%;
 	}
+	.aboveFooter {
+		display: none;
+	}
 
 }
 
@@ -170,6 +173,9 @@ p.copyright {
 	}
 	hr {
 		width: 25%;
+	}
+	hr.aboveFooter {
+		display: none;
 	}
 	.footer {
 		display: flex;
