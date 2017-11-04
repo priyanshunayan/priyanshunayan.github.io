@@ -169,6 +169,10 @@ p.copyright {
 	hr {
 		width: 25%;
 	}
+	.footer {
+		display: flex;
+		justify-content: center;
+	}
 	.footer h3 {
 	font-size: 2rem;
 	margin-right: 1em;
@@ -178,7 +182,6 @@ p.copyright {
 }
 .footer a {
 	color: black;
-	margin: 0 auto;
 }
 }
 @media only screen and (min-width:1024px) {
@@ -206,15 +209,19 @@ p.copyright {
 		display: flex;
 
 	}
+	.footer {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 	.footer h3 {
 	font-size: 2rem;
 	margin-right: 1em;
 	margin-left: 1em;
-	margin: 0 auto;
 	text-align: center;
 }
 .footer a {
 	color: black;
-	margin: 0 auto;
+	
 }
 } 
