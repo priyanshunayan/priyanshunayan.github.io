@@ -249,6 +249,8 @@ a.work-list:hover {
 	.about-text{
 		margin-top: 1rem;
 		width: 90%;
+		overflow: hidden;
+
 	
 	}
 	.tudu-layout, .thought-layout {
@@ -258,23 +260,29 @@ a.work-list:hover {
 	}
 	.work-tudu {
 		width: 100%;
+		margin-right: 0.5rem;
 	}
 	.work-thought {
 		width: 100%;
 		margin-top: 1rem;
+		margin-right: 0.5rem;
 	}
 .work-tudu-text {
 	width: 90%;
+	overflow: hidden;
 }
 .work-thought-text {
 	width: 90%;
 	margin-top: 1rem;
+	overflow: hidden;
 }
 .writing-text {
-	width: 95%;
+	width: 90%;
+	overflow: hidden;
 }
 .contact-text {
-	width: 95%;
+	width: 90%;
+	overflow: hidden;
 }
 
 }
