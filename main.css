@@ -226,7 +226,6 @@ a.work-list:hover {
 @media only screen and (max-width: 875px) {
 	.container {
 		width: 100%;
-		margin-left: 1rem;
 	}
 	.head-top {
 		margin-left: 2rem;
@@ -248,8 +247,10 @@ a.work-list:hover {
 
 	.about-text{
 		margin-top: 1rem;
-		width: 90%;
+		width: 95%;
 		overflow: hidden;
+		margin-left: 1rem;
+		margin-right: 1rem;
 
 	
 	}
@@ -260,12 +261,11 @@ a.work-list:hover {
 	}
 	.work-tudu {
 		width: 100%;
-		margin-right: 0.5rem;
+		
 	}
 	.work-thought {
 		width: 100%;
 		margin-top: 1rem;
-		margin-right: 0.5rem;
 	}
 .work-tudu-text {
 	width: 90%;
@@ -279,10 +279,17 @@ a.work-list:hover {
 .writing-text {
 	width: 90%;
 	overflow: hidden;
+	margin-left: 1rem;
 }
 .contact-text {
 	width: 90%;
 	overflow: hidden;
+	margin-left: 1rem;
 }
-
+.writing h2, .contact h2, .work h2 {
+	margin-left: 1rem;
+}
+.story-list{
+	margin-left: 1rem;
+}
 }
